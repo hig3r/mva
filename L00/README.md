@@ -1,19 +1,21 @@
 # L00 準備
 
-## L00-01 
+## L00_01 
 - 個人課題
 - 提出物なし
 
 まだ訪れていない人は，科目のGemini Notebookを訪れ，今日の授業内容について質問してみましょう
 
 
-## L00-01
+## L00_02
 - 個人課題
 - 提出物なし
 
+Moodleにログインしましょう
+
 https://learn.hig3.net の練習問題の練習を実行しましょう
 
-## L00-02
+## L00_03
 - 個人課題
 - 提出物なし
 
@@ -32,17 +34,18 @@ Notebook環境では，編集するコードと実行結果が一組の「コー
 
 
 ### 手順
-1. ここにある [L00_02_REPL.ipynb](L00_02_REPL.ipynb) を開き，「Google Colaboratoryで開く」を選択しましょう．このファイルは，Google Drive のどこどこに保存されます．
-2. Google Drive ([Gmail]で:::からGoogle Driveを選ぶ)の`Google Colaboratory`フォルダを選んでファイルを見ましょう．
-3. [L00_02-REPL.ipynb](L00_02-REPL.ipynb)を読みながら各セルを実行しましょう．
+1. ここにある [mva_L00_03_REPL.ipynb](mva_L00_03_REPL.ipynb) を開き，「Google Colaboratoryで開く」を選択しましょう．このファイルは，Google Drive のどこどこに保存されます．
+2. Google Drive ([Gmail](https://mail.google.com/a/mail.ryukoku.ac.jp)で▦アイコンからGoogle Driveを選ぶ)の`Colab Notebooks`フォルダを選んでファイルを見ましょう．
+3. [mva_L00_03_REPL.ipynb](mva_L00_03_REPL.ipynb)を読みながら各セルを実行しましょう．
 
-
-
-## L00-03
+## L00_04
 - チーム課題
 - 提出物 .ipynb ファイル(2026-09-30水13:30)
 
-1. https://learn.hig3.net からデータのCSVファイルを取得しましょう．
-1. [L00_03_Pandas_Regression.ipynb](L00_03_Pandas_Regression.ipynb)にしたがってCSVファイルを読み込み，$y=\beta_1 x + \beta_0$ の $\beta_0, \beta_1$ を推定し，Notebook内に記しましょう．
-1. Notebookを ipynb ファイルとしてダウンロードし，チームメンバーと，Teams chatまたはメール添付で共有します．
-1. 各チームメンバーは，Moodle に ipynb ファイルを提出します．
+1. 臨時の2名チームを作りましょう．
+1. メンバーのうち1名が，https://learn.hig3.net のL00_04から3変量データのCSVファイルをダウンロードします．
+1. [mva_L00_04_Pandas_Regression.ipynb](mva_L00_04_Pandas_Regression.ipynb)を開いて実行し，ダウンロードしたCSVファイルを読み込みます．
+2. 目的変数$y$ を`height`，説明変数$x$ を `width` として，散布図を描き，回帰係数 $y=\beta_1 x + \beta_0$ の $\beta_0, \beta_1$ を推定しましょう．
+3. 推定した回帰係数を，Notebookの先頭に記しましょう．
+4. 完成したNotebookを `.ipynb` ファイルとしてダウンロードし，チームメンバーと，Teams chatまたはメール添付で共有します．
+5. 各チームメンバーは，Moodle に `.ipynb` ファイルを提出します．
