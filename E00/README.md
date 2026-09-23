@@ -10,11 +10,11 @@
 - 個人課題
 - 提出 それぞれMoodle
 
-- Moodleにログインし，コース[多変量解析☆演習](https://learn.hig3.net/moodle/course/view.php?id=23)のL00に進みましょう．
+- Moodleにログインし，コース[多変量解析☆演習](https://learn.hig3.net/moodle/course/view.php?id=23)のE00に進みましょう．
   - 初回アンケートに答えましょう．
   - 説明を聞いた後，学習履歴データ分析への同意のお願いに回答しましょう．
   - 練習問題の練習を実行しましょう．
-  - （今後は毎回は書きませんが，来週までに練習問題L01を実行してTrialL01に備えましょう）
+  - （今後は毎回は書きませんが，来週までにL01パートの練習問題L01を実行してTrialL01に備えましょう）
 
 ## E00_03
 - チーム課題
@@ -35,9 +35,9 @@ Notebook環境では，編集するコードと実行結果が一組の「コー
 
 ### 手順
 1. 臨時の2名チームを作りましょう．
-2. 1名がドライバーとなって，リポジトリにある [mva_E00_03_REPL.ipynb](mva_E00_03_REPL.ipynb) をWebで表示し，「Google Colaboratoryで開く」を選択しましょう．
+2. 1名がドライバーとなって，リポジトリにある [mva_E00_03_REPL.ipynb](mva_E00_03_REPL.ipynb) をWebで表示し，「Open in Colab」アイコンをクリックしましょう．
 3. もう1名は，ナビゲーターとなってつっこみを入れましょう．
-4. このファイルは，Google Drive の，`マイドライブ/Colab Notebooks`に保存され他はずです．そのことを確かめましょう．[Google Drive](https://drive.google.com/drive/u/1/my-drive) の`Colab Notebooks`フォルダを選んでファイルを見ましょう．このファイルは，Google Drive内で移動して整理してもかまいません．
+4. このファイルは，Google Drive の，`マイドライブ/Colab Notebooks`に保存されたはずです．そのことを確かめましょう．[Google Drive](https://drive.google.com/drive/u/1/my-drive) の`Colab Notebooks`フォルダを選んでファイルを見ましょう．このファイルは，Google Drive内で移動して整理してもかまいません．
     1. [Gmail](https://mail.google.com/a/mail.ryukoku.ac.jp)で▦アイコンからGoogle Driveを選ぶことでも到達できます．
     2. 作業を途中で中断し，後から再開する場合は，Google Driveの`Colab Notebooks`フォルダから，このNotebookを開きましょう．
 5. コードセルを1つずつ実行してみましょう．
