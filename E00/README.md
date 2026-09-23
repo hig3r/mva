@@ -1,13 +1,12 @@
-# L00 準備
+# E00 準備
 
-## L00_01 
+## E00_01 
 - 個人課題
 - 提出なし
 
 まだ訪れていない人は，科目のGemini Notebookを訪れ，今日の授業内容について質問してみましょう
 
-
-## L00_02
+## E00_02
 - 個人課題
 - 提出 それぞれMoodle
 
@@ -17,7 +16,7 @@
   - 練習問題の練習を実行しましょう．
   - （今後は毎回は書きませんが，来週までに練習問題L01を実行してTrialL01に備えましょう）
 
-## L00_03
+## E00_03
 - チーム課題
 - 提出 Moodleに各個人が `.ipynb` ファイルを提出(2026-09-24木13:30)
 
@@ -36,7 +35,7 @@ Notebook環境では，編集するコードと実行結果が一組の「コー
 
 ### 手順
 1. 臨時の2名チームを作りましょう．
-2. 1名がドライバーとなって，リポジトリにある [mva_L00_03_REPL.ipynb](mva_L00_03_REPL.ipynb) をWebで表示し，「Google Colaboratoryで開く」を選択しましょう．
+2. 1名がドライバーとなって，リポジトリにある [mva_E00_03_REPL.ipynb](mva_E00_03_REPL.ipynb) をWebで表示し，「Google Colaboratoryで開く」を選択しましょう．
 3. もう1名は，ナビゲーターとなってつっこみを入れましょう．
 4. このファイルは，Google Drive の，`マイドライブ/Colab Notebooks`に保存され他はずです．そのことを確かめましょう．[Google Drive](https://drive.google.com/drive/u/1/my-drive) の`Colab Notebooks`フォルダを選んでファイルを見ましょう．このファイルは，Google Drive内で移動して整理してもかまいません．
     1. [Gmail](https://mail.google.com/a/mail.ryukoku.ac.jp)で▦アイコンからGoogle Driveを選ぶことでも到達できます．
@@ -46,12 +45,12 @@ Notebook環境では，編集するコードと実行結果が一組の「コー
 7. 完成したNotebookを `.ipynb` ファイルとしてダウンロードし，チームメンバーと，Teams chatまたはメール添付で共有します．
 8. 2名が同一の `.ipynb` ファイルを，Moodleにそれぞれ提出します．
 
-## L00_04
+## E00_04
 - チーム課題
 - 提出 Moodleに`.ipynb` ファイルを提出(2026-09-30水13:30)
 
 1. MoodleのL04_04出題から3変量データのCSVファイルをダウンロードします．
-3. [mva_L00_04_Pandas_Regression.ipynb](mva_L00_04_Pandas_Regression.ipynb)を開いて前半を実行します．
+3. [mva_E00_04_Pandas_Regression.ipynb](mva_E00_04_Pandas_Regression.ipynb)を開いて前半を実行します．
 4. 3変量ファイルについて同様の分析を，`.ipynb`ファイルの後半で実行します．
    - ダウンロードしたCSVファイルを読み込みます．
    - `width`と`height`の散布図を描きます．
