@@ -49,8 +49,8 @@ Notebook環境では，編集するコードと実行結果が一組の「コー
 - 個人課題
 - 提出 Moodleに`.ipynb` ファイルを提出(2026-09-30水13:30)
 
-3. [mva_E00_04_Pandas_Regression.ipynb](mva_E00_04_Pandas_Regression.ipynb)を開いて前半を実行します．
-1. MoodleのL04_04出題から3変量データのCSVファイルをダウンロードします．
+3. [mva_E00_04_pandas_Regression.ipynb](mva_E00_04_pandas_Regression.ipynb)を開いて前半を実行します．以下，後半を実行します．
+4. MoodleのL04_04出題から3変量データのCSVファイルをダウンロードします．
 5. 3変量ファイルについて同様の分析を，`.ipynb`ファイルの後半で実行します．
    - ダウンロードしたCSVファイルを読み込みます．
    - `width`と`height`の散布図を描きます．
