@@ -17,7 +17,9 @@
 
 ## E01_03
 
+[mva_2026_E01_03_NumPy_matrix_vector](mva_E01_03_NumPy_matrix_vector.ipynb) を実行して，NumPy の行列・ベクトルの計算の仕方を理解してください．
+
 
 ## E01_04
-
+[mva_2026_E01_04_sampling](mva_E01_04_sampling.ipynb) 
 
