@@ -20,7 +20,7 @@
 - 提出：2026-10-07水13:30まで
 - Moodleに`.ipynb`ファイルをアップロード
 
-[mva_2026_E01_03_NumPy_matrix_vector](mva_E01_03_NumPy_matrix_vector.ipynb) を実行して，NumPy の行列・ベクトルの計算の仕方を理解してください．
+[mva_2026_E01_03_NumPy_matrix_vector](mva_2026_E01_03_NumPy_matrix_vector.ipynb) を実行して，NumPy の行列・ベクトルの計算の仕方を理解してください．
 
 
 ## E01_04
