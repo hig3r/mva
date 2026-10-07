@@ -8,10 +8,10 @@
   - コンストラクタ LinearRegression(), メソッドfit(), predict(), score() などを持つ．
   - X: 説明変数の行列
   - y: 目的変数のベクトル
-- statmodels
+- statsmodels
   - キーワード引数 endog: 目的変数
   - キーワード引数 exog: 説明変数
-  - コンストラクタ ols() statmodels.api.OLS https://www.statsmodels.org/stable/generated/statsmodels.formula.api.ols.html,
+  - コンストラクタ ols() statsmodels.api.OLS https://www.statsmodels.org/stable/generated/statsmodels.formula.api.ols.html,
   - メソッドfit(), predict(), summary() などを持つ．https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.OLS.html
 
 ### よく出てくる関数名
