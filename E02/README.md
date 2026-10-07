@@ -29,4 +29,8 @@
 - 提出：2026-10-14水13:30まで
 - Moodleに`.ipynb`ファイルをアップロード
 - [mva_2026_E02_03_multiple_linear_regression.ipynb](mva_2026_E02_03_multiple_linear_regression.ipynb) を実行して，
-statmodels の OLS による重回帰分析の方法を理解してください．
+statsmodels の OLS による重回帰分析の方法を理解してください．
+
+OLSのfit()の結果の解釈は，次の図を参考にしてください．
+
+![statsmodels の OLS summary の解釈](statsmodelsolssummary.png)
