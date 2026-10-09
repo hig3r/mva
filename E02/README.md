@@ -1,7 +1,7 @@
 # E02
 
 ## E02_01
-[説明関数の呼び出し方.md](../doc/説明関数の呼び出し方.md) を読んで，Python の関数の呼び方を理解してください．
+[説明_関数の呼び出し方.md](../doc/説明_関数の呼び出し方.md) を読んで，Python の関数の呼び方を理解してください．
 
 ### 今日使う関数
 - sklearn.linear_model.LinearRegression https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
@@ -26,8 +26,8 @@
 
 
 ## E02_03
-- 提出：2026-10-14水13:30まで
-- Moodleに`.ipynb`ファイルをアップロード
+- 任意実行
+
 - [mva_2026_E02_03_multiple_linear_regression.ipynb](mva_2026_E02_03_multiple_linear_regression.ipynb) を実行して，
 statsmodels の OLS による重回帰分析の方法を理解してください．
 
