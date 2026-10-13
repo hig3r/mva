@@ -1,108 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1790" height="887" viewBox="0 0 1790 887" role="img" aria-labelledby="title desc">
-  <title id="title">機械学習ワークフロー図</title>
-  <desc id="desc">モデルを訓練し，予測と検証へ進む機械学習ワークフロー</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="title description">
+  <title id="title">ML flowchart: training, prediction, and validation</title>
+  <desc id="description">Vector reconstruction of the final color diagram. The first prediction input is X. Validation is below y_test. The y_train and y_test boxes are separated by a clear gap. All artwork is SVG geometry and editable text; no raster images are embedded.</desc>
   <defs>
-    <linearGradient id="training-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#eaf7ff"/>
-      <stop offset="1" stop-color="#f8fcff"/>
+    <linearGradient id="training-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7f4ff"/>
+      <stop offset="1" stop-color="#e7f1fc"/>
     </linearGradient>
-    <linearGradient id="prediction-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f1ffea"/>
-      <stop offset="1" stop-color="#fbfff9"/>
+    <linearGradient id="prediction-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7f5dc"/>
+      <stop offset="1" stop-color="#e6f4da"/>
     </linearGradient>
-    <linearGradient id="node-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fafaff"/>
-      <stop offset="1" stop-color="#eef0ff"/>
+    <linearGradient id="model-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ebe7fa"/>
+      <stop offset="1" stop-color="#e6e4f9"/>
     </linearGradient>
-    <linearGradient id="model-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fafaff"/>
-      <stop offset="1" stop-color="#e9e7ff"/>
+    <linearGradient id="pill-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fafbfe"/>
+      <stop offset="1" stop-color="#e9e8f9"/>
     </linearGradient>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 12 6 L 0 12 Z" fill="#111"/>
     </marker>
     <style>
-      .frame { stroke-width:2; stroke-dasharray:8 7; }
-      .box { fill:url(#model-bg); stroke:#000; stroke-width:4; stroke-linejoin:round; }
-      .oval { fill:url(#node-bg); stroke:#000; stroke-width:4; }
-      .label { font-family:Arial, Helvetica, sans-serif; fill:#000; }
-      .heading { font:700 36px Arial, Helvetica, sans-serif; }
-      .text { font:30px Arial, Helvetica, sans-serif; }
-      .node-text { font:29px Arial, Helvetica, sans-serif; }
-      .small { font:27px Arial, Helvetica, sans-serif; }
-      .solid { fill:none; stroke:#000; stroke-width:4; marker-end:url(#arrow); }
-      .dashed { fill:none; stroke:#000; stroke-width:4; stroke-dasharray:10 10; marker-end:url(#arrow); }
-      .dotted { fill:none; stroke:#000; stroke-width:5; stroke-linecap:round; stroke-dasharray:1 11; marker-end:url(#arrow); }
-      .double { fill:none; stroke:#000; stroke-width:4; marker-start:url(#arrow); marker-end:url(#arrow); }
+      text { font-family: Arial, Helvetica, sans-serif; fill: #111; font-size: 28px; }
+      .heading { font-size: 36px; font-weight: 700; }
+      .node { stroke: #111; stroke-width: 3.2; fill: url(#pill-fill); }
+      .model { stroke: #111; stroke-width: 3.2; fill: url(#model-fill); }
+      .line { fill: none; stroke: #111; stroke-width: 3.2; stroke-linecap: round; }
+      .dashed { stroke-dasharray: 7 10; }
+      .dotted { stroke-width: 4; stroke-dasharray: 0.1 12; }
     </style>
   </defs>
-
-  <rect width="1790" height="887" fill="#fff"/>
-
-  <!-- training -->
-  <rect x="497" y="24" width="497" height="540" rx="31" fill="url(#training-bg)" stroke="#3aa7e8" class="frame"/>
-  <text x="745" y="76" text-anchor="middle" class="label heading">training</text>
-
-  <!-- prediction -->
-  <rect x="1046" y="24" width="690" height="827" rx="31" fill="url(#prediction-bg)" stroke="#56aa5b" class="frame"/>
-  <text x="1391" y="76" text-anchor="middle" class="label heading">prediction</text>
-
-  <!-- model source -->
-  <text x="35" y="372" class="label text">model</text>
-  <rect x="167" y="272" width="284" height="180" rx="2" class="box"/>
-  <text x="309" y="371" text-anchor="middle" class="label text">Y = ■ + □X + ε</text>
-
-  <!-- training data and fitted model -->
-  <rect x="554" y="115" width="184" height="67" rx="34" class="oval"/>
-  <text x="646" y="160" text-anchor="middle" class="label node-text">X_train</text>
-  <rect x="767" y="115" width="186" height="67" rx="34" class="oval"/>
-  <text x="860" y="160" text-anchor="middle" class="label node-text">y_train</text>
-  <path d="M738 149 H754 V270" class="solid"/>
-  <path d="M767 149 H754" fill="none" stroke="#000" stroke-width="4"/>
-  <text x="785" y="234" class="label small">.fit()</text>
-  <rect x="605" y="273" width="302" height="179" rx="2" class="box"/>
-  <text x="756" y="350" text-anchor="middle" class="label text">Y = 3 + 2X + ε</text>
-  <text x="756" y="405" text-anchor="middle" class="label text">R2 = 0.98</text>
-
-  <!-- progression arrows -->
-  <path d="M451 362 H602" class="dotted"/>
-  <path d="M907 362 H1189" class="dotted"/>
-
-  <!-- prediction input data -->
-  <rect x="1083" y="114" width="183" height="68" rx="34" class="oval"/>
-  <text x="1174" y="160" text-anchor="middle" class="label node-text">X_train</text>
-  <rect x="1295" y="114" width="186" height="68" rx="34" class="oval"/>
-  <text x="1388" y="160" text-anchor="middle" class="label node-text">X_train</text>
-  <rect x="1510" y="114" width="190" height="68" rx="34" class="oval"/>
-  <text x="1605" y="160" text-anchor="middle" class="label node-text">X_test</text>
-  <text x="1592" y="233" class="label small">.predict()</text>
-
-  <!-- prediction model -->
-  <rect x="1192" y="273" width="388" height="180" rx="2" class="box"/>
-  <text x="1386" y="350" text-anchor="middle" class="label text">Y = 3 + 2X + ε</text>
-  <text x="1386" y="405" text-anchor="middle" class="label text">R2 = 0.98</text>
-  <path d="M1174 182 V270" class="dashed"/>
-  <path d="M1388 182 V270" class="dashed"/>
-  <path d="M1605 182 V270" class="dashed"/>
-
-  <!-- predictions -->
-  <path d="M1206 453 V538" class="dashed"/>
-  <path d="M1387 453 V538" class="dashed"/>
-  <path d="M1566 453 V538" class="dashed"/>
-  <rect x="1110" y="540" width="171" height="65" rx="33" class="oval"/>
-  <text x="1196" y="584" text-anchor="middle" class="label node-text">y</text>
-  <rect x="1312" y="540" width="171" height="65" rx="33" class="oval"/>
-  <text x="1398" y="584" text-anchor="middle" class="label node-text">y</text>
-  <rect x="1501" y="540" width="171" height="65" rx="33" class="oval"/>
-  <text x="1587" y="584" text-anchor="middle" class="label node-text">y</text>
-
-  <!-- validation -->
-  <rect x="1308" y="689" width="190" height="70" rx="35" class="oval"/>
-  <text x="1403" y="735" text-anchor="middle" class="label node-text">y_train</text>
-  <rect x="1496" y="689" width="174" height="70" rx="35" class="oval"/>
-  <text x="1583" y="735" text-anchor="middle" class="label node-text">y_test</text>
-  <path d="M1398 605 V685" class="double"/>
-  <path d="M1587 605 V685" class="double"/>
-  <text x="1583" y="816" text-anchor="middle" class="label text">validation</text>
+  <rect width="1600" height="800" fill="#fff"/>
+  <g id="training">
+    <rect x="450" y="22" width="450" height="488" rx="30" fill="url(#training-fill)" stroke="#68b2df" stroke-width="1.8" stroke-dasharray="7 7"/>
+    <text class="heading" x="675" y="70" text-anchor="middle">training</text>
+  </g>
+  <g id="prediction">
+    <rect x="945" y="22" width="620" height="746" rx="30" fill="url(#prediction-fill)" stroke="#83b676" stroke-width="1.8" stroke-dasharray="7 7"/>
+    <text class="heading" x="1255" y="70" text-anchor="middle">prediction</text>
+  </g>
+  <g id="model-transfer" class="line dotted" marker-end="url(#arrow)">
+    <path d="M 405 326 H 541"/>
+    <path d="M 817 326 H 1070"/>
+  </g>
+  <g id="training-inputs">
+    <path class="line" d="M 666 135 H 693 M 680 135 V 241" marker-end="url(#arrow)"/>
+    <rect class="node" x="500" y="104" width="166" height="62" rx="31"/>
+    <text x="583" y="145" text-anchor="middle">X_train</text>
+    <rect class="node" x="693" y="104" width="168" height="62" rx="31"/>
+    <text x="777" y="145" text-anchor="middle">y_train</text>
+    <text x="702" y="212">.fit()</text>
+  </g>
+  <g id="untrained-model">
+    <text x="115" y="335" text-anchor="end">model</text>
+    <rect class="model" x="150" y="245" width="255" height="162" rx="1"/>
+    <text x="278" y="338" text-anchor="middle">Y = ■ + □X + ε</text>
+  </g>
+  <g id="trained-model">
+    <rect class="model" x="546" y="245" width="271" height="162" rx="1"/>
+    <text x="682" y="315" text-anchor="middle">Y = 3 + 2X + ε</text>
+    <text x="682" y="365" text-anchor="middle">R2 = 0.98</text>
+  </g>
+  <g id="prediction-inputs">
+    <path class="line dashed" d="M 1088 166 V 241" marker-end="url(#arrow)"/>
+    <path class="line dashed" d="M 1253 166 V 241" marker-end="url(#arrow)"/>
+    <path class="line dashed" d="M 1414 166 V 241" marker-end="url(#arrow)"/>
+    <rect class="node" x="976" y="103" width="168" height="62" rx="31"/>
+    <text x="1060" y="145" text-anchor="middle">X</text>
+    <rect class="node" x="1169" y="103" width="168" height="62" rx="31"/>
+    <text x="1253" y="145" text-anchor="middle">X_train</text>
+    <rect class="node" x="1363" y="103" width="168" height="62" rx="31"/>
+    <text x="1447" y="145" text-anchor="middle">X_test</text>
+    <text x="1438" y="212">.predict()</text>
+  </g>
+  <g id="prediction-model">
+    <rect class="model" x="1075" y="245" width="352" height="164" rx="1"/>
+    <text x="1251" y="315" text-anchor="middle">Y = 3 + 2X + ε</text>
+    <text x="1251" y="365" text-anchor="middle">R2 = 0.98</text>
+  </g>
+  <g id="prediction-outputs">
+    <path class="line dashed" d="M 1088 409 V 502" marker-end="url(#arrow)"/>
+    <path class="line dashed" d="M 1253 409 V 502" marker-end="url(#arrow)"/>
+    <path class="line dashed" d="M 1414 409 V 502" marker-end="url(#arrow)"/>
+    <rect class="node" x="1003" y="509" width="154" height="60" rx="30"/>
+    <text x="1080" y="550" text-anchor="middle">y</text>
+    <rect class="node" x="1185" y="509" width="136" height="60" rx="30"/>
+    <text x="1253" y="550" text-anchor="middle">y</text>
+    <rect class="node" x="1362" y="509" width="140" height="60" rx="30"/>
+    <text x="1432" y="550" text-anchor="middle">y</text>
+  </g>
+  <g id="validation">
+    <path class="line" d="M 1253 577 V 639" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <path class="line" d="M 1414 577 V 639" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <rect id="y-train-validation" class="node" x="1179" y="647" width="148" height="62" rx="31"/>
+    <text x="1253" y="689" text-anchor="middle">y_train</text>
+    <rect id="y-test-validation" class="node" x="1358" y="647" width="148" height="62" rx="31"/>
+    <text x="1432" y="689" text-anchor="middle">y_test</text>
+    <text x="1432" y="757" text-anchor="middle">validation</text>
+  </g>
 </svg>
