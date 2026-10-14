@@ -9,7 +9,7 @@
 ## E03_02 標本の生成と可視化
 - 提出: なし
 
-[mva_2026_E03_02_multivariate_normal.ipynb](mva_2026_E03_02_multivariate_normal.ipynb)を実行してください．
+[mva_2026_E03_02_multivariate_normal_scatterplot.ipynb](mva_2026_E03_02_multivariate_normal_scatterplot.ipynb)を実行してください．
 
 ## E03_03 母数の推定
 - 個人課題
@@ -18,4 +18,4 @@
 
 まず，LearnMoodleから個人用データファイルをダウンロードして使ってください．
 
-[mva_2026_E03_03_multivariate_normal.ipynb](mva_2026_E03_03_multivariate_normal.ipynb)で，後半の課題を実行してください．
+[mva_2026_E03_03_multivariate_normal_empirical_data.ipynb](mva_2026_E03_03_multivariate_normal_empirical_data.ipynb)で，後半の課題を実行してください．
