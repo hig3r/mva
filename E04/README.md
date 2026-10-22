@@ -5,7 +5,7 @@
 
 [訓練データと検証・テストデータへの分割](../doc/説明_訓練データと検証・テストデータへの分割.md) を読んで，訓練データ，検証データ，テストデータの意味を理解しよう．
 
-[E04_00_test_validate_train_split.ipynb](E04_00_train_validate_test_split.ipynb)を実行し，`test_train_split` の使い方，訓練データ，テストデータの分割の方法を確認しよう．
+[E04_00_train_validate_test_split.ipynb](E04_00_train_validate_test_split.ipynb)を実行し，`test_train_split` の使い方，訓練データ，テストデータの分割の方法を確認しよう．
 
 ## E04_01　決定係数，自由度調整済み決定係数
 - 提出締切: 2026-10-28水13:30
