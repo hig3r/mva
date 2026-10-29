@@ -5,9 +5,12 @@
 - Moodleに`.ipynb`ファイルをアップロード
 
 - [mva_2026_E05_01_dummy_polynomial_variables.ipynb](https://github.com/hig3r/mva/blob/2026/E05/mva_2026_E05_01_dummy_polynomial_variables.ipynb)の例を参考にして，個人別にMoodleで与えられたデータを分析しよう．
-- 項 $x_1^2,x_1\cdot x_2,x_2$ で，多項式回帰モデルを作成し，自由度調整済み決定係数を求めよう．
+- 項 $x_1^2,x_1\times x_2,x_2$ で，多項式回帰モデルを作成し，決定係数を求めよう．
 
-次はやらなくてよい（カテゴリ変数がないから）
+追記：すみません，指示が不明確でした．自力で解釈してやった人はそのまま提出してください．明確な指示でやりたい人は次のファイルを参照してください．
+- [mva_2026_E05_01_revised_dummy_polynomial_variables.ipynb](https://github.com/hig3r/mva/blob/2026/E05/mva_2026_E05_01_revised_dummy_polynomial_variables.ipynb)
+
+追記：次はやらなくてよいです（配布データにカテゴリ変数がないから）
 - ~~線形重回帰モデルに，ダミー変数を導入して，説明変数の多項式回帰モデルを作成し，それぞれ自由度調整済み決定係数を求めよう．~~
 
 ## E05_02　変数選択，モデル選択
