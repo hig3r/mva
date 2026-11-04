@@ -22,5 +22,5 @@ Moodleの個人別データで，[E06_01_Logistic_Regression.ipynb](mva_2026_E06
 - 提出不要
 
 以前に1次元正規分布，2次元正規分布を母分布からサンプルしたように，
-[E06_03_GMM_Generate_Visualize.ipynb](mva_2026_E06_03_GMM_generate_visualize.ipynb)で
+[E06_03_GMM_generate_visualize.ipynb](mva_2026_E06_03_GMM_generate_visualize.ipynb)で
 1,2次元の混合ガウス分布のサンプルを母分布から抽出して可視化してみよう．
