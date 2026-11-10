@@ -25,6 +25,6 @@ Moodleの個人別データで，[E06_01_Logistic_Regression.ipynb](mva_2026_E06
 1,2次元の混合ガウス分布のサンプルを母分布から抽出して可視化してみよう．
 
 ## E06_04 ロジスティック重回帰しよう
-- 提出 なし
+- 提出不要
 
 データ [E06_04.csv](https://www.data.math.ryukoku.ac.jp/course/mva_2026/data/E06_04.csv) は，2個の説明変数x1,x2と，2値の目的変数y=0,1を持つ．ロジスティック重回帰して，回帰式を求めよう．[E06_01_Logistic_Regression.ipynb](mva_2026_E06_01_Logistic_Regression.ipynb)を参考に．
