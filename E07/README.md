@@ -16,13 +16,13 @@
   - 参考：[E06_03_GMM_generate_visualize.ipynb](https://learn.hig3.net/moodle/mod/url/view.php?id=3098))
 - [E03_03_multivariate_normal_empirical_data.ipynb](../E03/mva_2026_E03_03_multivariate_normal_empirical_data.ipynb)を参考にして，クラス $y=0,1$ の2つの母分布の， $\pi_0,\pi_1$, 毋平均値 $\mu_0,\mu_1$ と，毋共分散行列 $\Sigma_0,\Sigma_1$ を推定しよう．推定されるのは標準偏差でなく「母共分散行列」であることに注意．
   - その母数でデータを生成することはしなくてよい
-- その母数を使って，[E07_01_Bayesian_Classification_GMM2.ipynb](mva_2026_E07_01_Bayesian_Classification_GMM.ipynb)をまねて，$P(Y=1|X=\text{指定の点})$ を計算し，クラス $y=0,1$ のどちらに属するかを判定しよう．
+- その母数を使って，[E07_01_Bayesian_Classification_GMM2.ipynb](mva_2026_E07_01_Bayesian_Classification_GMM.ipynb)をまねて， $P(Y=1|X=\text{指定の点})$ を計算し，クラス $y=0,1$ のどちらに属するかを判定しよう．
 - 結果（母数の推定結果と， $y=1$ に属する確率）をノートブックの先頭に書こう．
 
 
 ## E07_03
 - 提出不要
 
-E07_02 の2ステップ，母数推定と尤度比計算の両方をまとめてやってくれるクラス QuadraticDiscriminantAnalysis が scikit-learn にある．これを使った$(x,y)$データの分析の例が[E07_03_QDA.ipynb](mva_2026_E07_03_QDA.ipynb)にある．
+E07_02 の2ステップ，母数推定と尤度比計算の両方をまとめてやってくれるクラス QuadraticDiscriminantAnalysis が scikit-learn にある．これを使った $(x,y)$ データの分析の例が[E07_03_QDA.ipynb](mva_2026_E07_03_QDA.ipynb)にある．
 
 このノートブックを利用して，E07_02 の分析が正しいかどうか（近い結果になるか）確認しよう．
